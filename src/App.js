@@ -29,7 +29,7 @@ class App extends Component {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="https://trusting-murdock-b6e74f.netlify.app/page2" component={Products}>
+            <Route path="/page2">
               <Products />
             </Route>
             <Route path="/page3">
