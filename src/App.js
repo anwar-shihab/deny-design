@@ -29,7 +29,7 @@ class App extends Component {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/page2">
+            <Route exact path="/page2">
               <Products />
             </Route>
             <Route path="/page3">
